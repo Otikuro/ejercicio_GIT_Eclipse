@@ -10,4 +10,13 @@ public class Alumno {
 		apellido = b;
 		dni = c;
 	}
+
+	
+	@Override
+	public String toString() {
+		return "------------------------\nNombre=" + nombre + "\nApellido=" + apellido + "\nDni=" + dni;
+	}
+
+
+	
 }
